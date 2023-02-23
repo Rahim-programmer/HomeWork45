@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "The Fault in Our Stars",
+    "author": "John Green",
+    "state": true
+  },
+  {
+    "id": "2",
+    "name": "The Picture of Dorian Grey",
+    "author": "Oscar Wilde",
+    "state": false
+  },
+  {
+    "id": 3,
+    "name": "Theater",
+    "author": "Somerset Maugham",
+    "state": true
+  },
+  {
+    "id": 4,
+    "name": "David Copperfield",
+    "author": "Charles Dickens",
+    "state": false
+  },
+  {
+    "id": 5,
+    "name": "1984 ",
+    "author": "George Orwell",
+    "state": true
+  },
+  {
+    "id": 6,
+    "name": "Clockwork Orange",
+    "author": "Anthony Burgess",
+    "state": true
+  },
+  {
+    "id": 7,
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "state": true
+  },
+  {
+    "id": 8,
+    "name": "Magus",
+    "author": "John Fowles",
+    "state": true
+  },
+  {
+    "id": 9,
+    "name": "Possess",
+    "author": " Antonia Byatt",
+    "state": false
+  },
+  {
+    "id": 10,
+    "name": "Mrs Dalloway",
+    "author": "Virginia Woolf",
+    "state": true
+  },
+  {
+    "id": 11,
+    "name": "The Golden Notebook",
+    "author": "Doris Lessing",
+    "state": false
+  },
+  {
+    "id": 12,
+    "name": "The Noise of Time",
+    "author": "Julian Barnes",
+    "state": true
+  },
+  {
+    "id": 13,
+    "name": "Hippo",
+    "author": "Stephen Fry",
+    "state": false
+  },
+  {
+    "id": 14,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "state": true
+  },
+  {
+    "id": 15,
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "state": true
+  }
+]
