@@ -12,8 +12,8 @@ public class Employee {
     private String lastName;
     private String email;
     private String password;
-    private List<Integer> curBooksId;
-    private List<Integer> prevBooksId;
+    private List<Integer> booksId;
+    private List<Integer> regBooksId;
     private transient List<Book> curBooks;
     private transient List<Book> prevBooks;
 
@@ -27,11 +27,11 @@ public class Employee {
 
     public void setBooks() {
         List<Book> books = FileBooksService.readFile();
-        if (curBooksId != null) {
-            curBooks = curBooksId.stream().map(id -> books.get(id - 1)).collect(Collectors.toList());
+        if (booksId != null) {
+            curBooks = booksId.stream().map(id -> books.get(id - 1)).collect(Collectors.toList());
         }
-        if (prevBooksId != null) {
-            prevBooks = prevBooksId.stream().map(id -> books.get(id - 1)).collect(Collectors.toList());
+        if (regBooksId != null) {
+            prevBooks = regBooksId.stream().map(id -> books.get(id - 1)).collect(Collectors.toList());
         }
     }
 

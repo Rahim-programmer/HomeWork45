@@ -1,82 +1,82 @@
 [
   {
-    "id": "1",
-    "fistName": "Rahim",
+    "id": 1,
     "lastName": "Atabaev",
     "email": "rahimatabaev75@mail.ru",
     "password": "Rahim02052002"
   },
-
   {
-    "id": "2",
-    "fistName": "Beka",
+    "id": 2,
     "lastName": "Turatbekov",
     "email": "bekatarad75@mail.ru",
     "password": "Bek@22002"
   },
   {
-    "id": "3",
-    "fistName": "Bulat",
+    "id": 3,
     "lastName": "Bektanoliev",
     "email": "bulatBekna75@mail.ru",
     "password": "Endin29292"
   },
   {
-    "id": "4",
-    "fistName": "Nurislam",
+    "id": 4,
     "lastName": "Berdikulov",
     "email": "Nurislam32@mail.ru",
     "password": "Nuris125803@"
   },
   {
-    "id": "5",
-    "fistName": "Orozbai",
+    "id": 5,
     "lastName": "Narynbekov",
     "email": "OrozbaiNrt@mail.ru",
     "password": "Oroz@2838301"
   },
-
   {
-    "id": "6",
-    "fistName": "Rustam",
+    "id": 6,
     "lastName": "Karbaliev",
     "email": "Karbaliev76@mail.ru",
     "password": "76karbin@2838301"
   },
-
   {
-    "id": "7",
-    "fistName": "Ulan",
+    "id": 7,
     "lastName": "Asanaliev",
     "email": "Asanaliev56@mail.ru",
     "password": "Asaen2@555"
   },
   {
-    "id": "7",
-    "fistName": "Narynbek",
+    "id": 7,
     "lastName": "Bekbordiev",
     "email": "Bekbordiev@mail.ru",
     "password": "Beka@534543"
   },
   {
-    "id": "8",
-    "fistName": "Sayora",
+    "id": 8,
     "lastName": "Atabaev",
     "email": "Sayora2006@mail.ru",
     "password": "2006Sayora@65"
   },
   {
-    "id": "9",
-    "fistName": "Atai",
+    "id": 9,
     "lastName": "Kalychkarbiev",
     "email": "Kalychkarbiev@mail.ru",
     "password": "Kalychkarbiev@65"
   },
   {
-    "id": "10",
-    "fistName": "Ilya",
+    "id": 10,
     "lastName": "Vasiliev",
     "email": "Vasiliev@mail.ru",
     "password": "Vasiliev331@65"
+  },
+  {
+    "id": 12,
+    "firstName": "Bahtyar",
+    "lastName": "Baxhha",
+    "email": "Baha@mail.ru",
+    "password": "wuruieriyreuir"
+  },
+  {
+    "id": 13,
+    "firstName": "Kamilla",
+    "lastName": "Atabeva",
+    "email": "kamilla@mail.ru",
+    "password": "reruiyeriueyrer"
   }
 ]

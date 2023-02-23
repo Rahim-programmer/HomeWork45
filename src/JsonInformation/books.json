@@ -3,90 +3,119 @@
     "id": 1,
     "name": "The Fault in Our Stars",
     "author": "John Green",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
   },
   {
     "id": "2",
     "name": "The Picture of Dorian Grey",
     "author": "Oscar Wilde",
-    "state": false
+    "state": false,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 3,
     "name": "Theater",
     "author": "Somerset Maugham",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 4,
     "name": "David Copperfield",
     "author": "Charles Dickens",
-    "state": false
+    "state": false,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 5,
     "name": "1984 ",
     "author": "George Orwell",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 6,
     "name": "Clockwork Orange",
     "author": "Anthony Burgess",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 7,
     "name": "Brave New World",
     "author": "Aldous Huxley",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 8,
     "name": "Magus",
     "author": "John Fowles",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 9,
     "name": "Possess",
     "author": " Antonia Byatt",
-    "state": false
+    "state": false,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 10,
     "name": "Mrs Dalloway",
     "author": "Virginia Woolf",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 11,
     "name": "The Golden Notebook",
     "author": "Doris Lessing",
-    "state": false
+    "state": false,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 12,
     "name": "The Noise of Time",
     "author": "Julian Barnes",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 13,
     "name": "Hippo",
     "author": "Stephen Fry",
-    "state": false
+    "state": false,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 14,
     "name": "Pride and Prejudice",
     "author": "Jane Austen",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   },
   {
     "id": 15,
     "name": "Wuthering Heights",
     "author": "Emily Brontë",
-    "state": true
+    "state": true,
+    "imgBook": "Книга.jpeg"
+
   }
 ]

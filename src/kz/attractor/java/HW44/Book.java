@@ -10,6 +10,15 @@ public class Book {
     private String author;
     private boolean state;
     private transient Employee user;
+    private String imgBook;
+
+    public String getImgBook() {
+        return imgBook;
+    }
+
+    public void setImgBook(String imgBook) {
+        this.imgBook = imgBook;
+    }
 
     public Book(int id, String name, String author) {
     }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Books</title>
+  <link href="css/freemarker.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="table flex flex-col">
+    <div class="header flex">
+      <div class="column">
+        id
+      </div>
+      <div class="column">
+        firstName
+      </div>
+      <div class="column">
+        lastName
+      </div>
+      <div class="column">
+        email
+      </div>
+      <div class="column">
+        password
+      </div>
+    </div>
+
+    <#list employees as employee>
+    <div class="row ${employee?item_parity} flex">
+      <div class="column">
+        ${employee?counter}
+      </div>
+      <div class="column">
+        <a href="/books/book" rel="link">${employee.firstName!'-- not specified --'}</a>
+      </div>
+      <div class="column">
+        ${employee.lastName!"-- not specified --"}
+      </div>
+      <div class="column">
+        ${employee.email!"-- not specified --"}
+      </div>
+      <div class="column">
+        ${employee.password!"-- not specified --"}
+    </div>
+  </div>
+</#list>
+</div>
+</body>
+</html>
