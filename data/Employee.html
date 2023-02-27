@@ -5,7 +5,7 @@
   <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Books</title>
+  <title>Employees</title>
   <link href="css/freemarker.css" rel="stylesheet">
 </head>
 <body>
@@ -29,22 +29,26 @@
       </div>
     </div>
 
-    <#list employees as employee>
+    <#list employee as employee>
     <div class="row ${employee?item_parity} flex">
       <div class="column">
         ${employee?counter}
       </div>
       <div class="column">
-        <a href="/books/book" rel="link">${employee.firstName!'-- not specified --'}</a>
+        <a href="/employees" rel="link">${employee.firstName!'-- not specified --'}</a>
       </div>
       <div class="column">
-        ${employee.lastName!"-- not information --"}
+        ${employee.lastName!"-- not specified --"}
       </div>
       <div class="column">
-        ${employee.email!"-- not information --"}
+        ${employee.email?string('Yes', 'No')}
       </div>
       <div class="column">
-        ${employee.password!"-- not information --"}
+        <#if employee.password?has_content>
+        ${employee.password.firstName}
+        <#else>
+        Employee
+      </#if>
     </div>
   </div>
 </#list>
