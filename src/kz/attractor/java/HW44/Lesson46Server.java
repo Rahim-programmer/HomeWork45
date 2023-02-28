@@ -8,41 +8,27 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 public class Lesson46Server extends Lesson45Server {
+
     public Lesson46Server(String host, int port) throws IOException {
         super(host, port);
-        registerGet("/cookie", this::lesson46Handler);
+        registerGet("/cookie", this::cookieRender);
     }
 
-    private void lesson46Handler(HttpExchange exchange) {
-        Cookie sessionCookie = Cookie.make("userId", "123");
-        exchange.getResponseHeaders()
-                .add("Set-Cookie", sessionCookie.toString());
+    protected void cookieRender(HttpExchange exchange) {
+        Cookie sessionCookie = Cookie.make("User-ID", generateID);
         Map<String, Object> data = new HashMap<>();
-        int times = 42;
-        data.put("times", times);
+        sessionCookie.setMaxAge(600);
+        sessionCookie.setHttpOnly(true);
 
-        String cookieString = getCookies(exchange);
-        Map<String, String> cookiees = Cookie.parse(cookieString);
-
-        data.put("cookies", cookiees);
-
-        String name = "times";
-        String cookieStr = getCookies(exchange);
-        Map<String, String> cookies = Cookie.parse(cookieStr);
-
-        String cookieValue = cookies.getOrDefault(name, "50");
-        int timees = Integer.parseInt(cookieValue) + 1;
-
-        Cookie response = new Cookie<>(name, timees);
-        setCookie(exchange, response);
-        data.put(name, timees);
-        data.put("cookies", cookies);
-
-        renderTemplate(exchange, "cookie.ftlh", data);
+        setCookie(exchange, sessionCookie);
+        getCookies(exchange);
+        renderTemplate(exchange, "cookie.html", data);
     }
 
 
 }
+
 

@@ -1,8 +1,5 @@
 package kz.attractor.java;
 
-import kz.attractor.java.HW44.Lesson45Server;
-import kz.attractor.java.HW44.Lesson46Server;
-
 import java.io.IOException;
 
 public class Main {
