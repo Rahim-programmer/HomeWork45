@@ -11,10 +11,8 @@ import kz.attractor.java.server.ContentType;
 import kz.attractor.java.server.ResponseCodes;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Lesson44Server extends BasicServer {
     private final static Configuration freemarker = initFreeMarker();
@@ -88,9 +86,10 @@ public class Lesson44Server extends BasicServer {
         return new BookDataModel();
     }
 
-    public Map<String, Object> getEmpDataModel() {
-        HashMap<String, Object> stringUserHashMap = new HashMap<>();
-        stringUserHashMap.put("users", FileEmployeeService.readFile());
-        return stringUserHashMap;
+    public EmployeeDataModel getEmpDataModel() {
+         return new EmployeeDataModel();
+//        HashMap<String, Object> stringUserHashMap = new HashMap<>();
+//        stringUserHashMap.put("users", FileEmployeeService.readFile());
+//        return stringUserHashMap;
     }
 }

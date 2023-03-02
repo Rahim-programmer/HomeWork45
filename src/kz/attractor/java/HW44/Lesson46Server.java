@@ -25,7 +25,7 @@ public class Lesson46Server extends Lesson45Server {
 
         setCookie(exchange, sessionCookie);
         getCookies(exchange);
-        renderTemplate(exchange, "cookie.html", data);
+        renderTemplate(exchange, "cookie.ftlh", data);
     }
 
 

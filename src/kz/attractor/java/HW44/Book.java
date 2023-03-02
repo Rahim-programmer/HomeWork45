@@ -11,6 +11,7 @@ public class Book {
     private boolean state;
     private transient Employee user;
     private String imgBook;
+    private transient List<Employee> employees;
 
     public String getImgBook() {
         return imgBook;
@@ -20,12 +21,14 @@ public class Book {
         this.imgBook = imgBook;
     }
 
+
     public Book(int id, String name, String author) {
     }
 
-    public Book(String name, String author){
+    public Book(String name, String author,String imgBook){
         this.name = name;
         this.author = author;
+        this.imgBook = imgBook;
         User();
     }
 

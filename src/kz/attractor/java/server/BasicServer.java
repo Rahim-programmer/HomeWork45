@@ -19,7 +19,6 @@ import java.util.Map;
 import static java.util.stream.Collectors.joining;
 
 public abstract class BasicServer {
-
     private final HttpServer server;
     private final String dataDir = "data";
     private Map<String, RouteHandler> routes = new HashMap<>();
@@ -39,7 +38,6 @@ public abstract class BasicServer {
 
         var index = path.lastIndexOf(".");
         var extOrPath = index != -1 ? path.substring(index).toLowerCase() : path;
-
         return makeKey(method, extOrPath);
     }
 
@@ -78,7 +76,6 @@ public abstract class BasicServer {
         registerFileHandler(".html", ContentType.TEXT_HTML);
         registerFileHandler(".jpg", ContentType.IMAGE_JPEG);
         registerFileHandler(".png", ContentType.IMAGE_PNG);
-
     }
 
     protected final void registerGet(String route, RouteHandler handler) {

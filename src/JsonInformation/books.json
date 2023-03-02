@@ -4,30 +4,27 @@
     "name": "The Fault in Our Stars",
     "author": "John Green",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "https://avatars.mds.yandex.net/i?id=76177098b08f637c091efd57eb4102b1aef779f0-8218669-images-thumbs&n=13&exp=1"
   },
   {
     "id": "2",
     "name": "The Picture of Dorian Grey",
     "author": "Oscar Wilde",
-    "state": false,
-    "imgBook": "Книга.jpeg"
+    "state": false
 
   },
   {
     "id": 3,
     "name": "Theater",
     "author": "Somerset Maugham",
-    "state": true,
-    "imgBook": "Книга.jpeg"
-
+    "state": true
   },
   {
     "id": 4,
     "name": "David Copperfield",
     "author": "Charles Dickens",
     "state": false,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -35,7 +32,7 @@
     "name": "1984 ",
     "author": "George Orwell",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -43,7 +40,7 @@
     "name": "Clockwork Orange",
     "author": "Anthony Burgess",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -51,7 +48,7 @@
     "name": "Brave New World",
     "author": "Aldous Huxley",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -59,7 +56,7 @@
     "name": "Magus",
     "author": "John Fowles",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -67,7 +64,7 @@
     "name": "Possess",
     "author": " Antonia Byatt",
     "state": false,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -75,7 +72,7 @@
     "name": "Mrs Dalloway",
     "author": "Virginia Woolf",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -83,7 +80,7 @@
     "name": "The Golden Notebook",
     "author": "Doris Lessing",
     "state": false,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -91,7 +88,7 @@
     "name": "The Noise of Time",
     "author": "Julian Barnes",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -99,7 +96,7 @@
     "name": "Hippo",
     "author": "Stephen Fry",
     "state": false,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -107,7 +104,7 @@
     "name": "Pride and Prejudice",
     "author": "Jane Austen",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   },
   {
@@ -115,7 +112,7 @@
     "name": "Wuthering Heights",
     "author": "Emily Brontë",
     "state": true,
-    "imgBook": "Книга.jpeg"
+    "imgBook": "Books.jpg"
 
   }
 ]

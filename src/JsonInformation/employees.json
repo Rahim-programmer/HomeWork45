@@ -22,78 +22,58 @@
   },
   {
     "id": 4,
+    "firstName": "Bektur",
     "lastName": "Berdikulov",
     "email": "Nurislam32@mail.ru",
     "password": "Nuris125803@"
   },
   {
     "id": 5,
+    "firstName": "Jamal",
     "lastName": "Narynbekov",
     "email": "OrozbaiNrt@mail.ru",
     "password": "Oroz@2838301"
   },
   {
     "id": 6,
+    "firstName": "Jyrgal",
     "lastName": "Karbaliev",
     "email": "Karbaliev76@mail.ru",
     "password": "76karbin@2838301"
   },
   {
     "id": 7,
+    "firstName": "Asan",
     "lastName": "Asanaliev",
     "email": "Asanaliev56@mail.ru",
     "password": "Asaen2@555"
   },
   {
-    "id": 7,
+    "id": 8,
+    "firstName": "Usen",
     "lastName": "Bekbordiev",
     "email": "Bekbordiev@mail.ru",
     "password": "Beka@534543"
   },
   {
-    "id": 8,
+    "id": 9,
+    "firstName": "Sayora",
     "lastName": "Atabaev",
     "email": "Sayora2006@mail.ru",
     "password": "2006Sayora@65"
   },
   {
-    "id": 9,
-    "lastName": "Kalychkarbiev",
-    "email": "Kalychkarbiev@mail.ru",
-    "password": "Kalychkarbiev@65"
-  },
-  {
     "id": 10,
-    "lastName": "Vasiliev",
-    "email": "Vasiliev@mail.ru",
-    "password": "Vasiliev331@65"
+    "firstName": "Ibragim",
+    "lastName": "Zlat",
+    "email": "Zlat@mail.ru",
+    "password": "12345678"
   },
   {
-    "id": 12,
-    "firstName": "Bahtyar",
-    "lastName": "Baxhha",
-    "email": "Baha@mail.ru",
-    "password": "wuruieriyreuir"
-  },
-  {
-    "id": 13,
-    "firstName": "Kamilla",
-    "lastName": "Atabeva",
-    "email": "kamilla@mail.ru",
-    "password": "reruiyeriueyrer"
-  },
-  {
-    "id": 14,
-    "firstName": "Roza",
-    "lastName": "hjgjgjhgj",
-    "email": "Rozawer@mail.ru",
-    "password": "123456roza"
-  },
-  {
-    "id": 15,
-    "firstName": "rhkHFd",
-    "lastName": "fdsmflkdsf",
-    "email": "wrerede@mail.ru",
-    "password": "1234567"
+    "id": 11,
+    "firstName": "Jamila",
+    "lastName": "atba",
+    "email": "Jam@mail.ru",
+    "password": "12345678"
   }
 ]
