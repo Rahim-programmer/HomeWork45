@@ -5,24 +5,19 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Book Page</title>
+    <title>Описание книги </title>
     <link href="css/freemarker.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
+
     <div class="table flex flex-col">
-        <div class="row  flex">
-            ${imgBook!"-- not specified --"}
+        <div class="row flex">
+            <p>Название книги: ${name!"-- not specified --"}</p>
+            <p>Имя автора: ${author!"-- not specified --"}</p>
+            <p>Описание книги: ${description!"-- not specified --"}</p>
         </div>
-        <div class="row  flex">
-            ${name!"-- not specified --"}
-        </div>
-        <div class="column">
-            ${author!"-- not specified --"}
-        </div>
-        <div class="column">
-            ${discription!"-- not specified --"}
-        </div>
+
     </div>
 </div>
 </body>

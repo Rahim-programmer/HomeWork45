@@ -5,10 +5,7 @@ import kz.attractor.java.HW44.Lesson45Server;
 import kz.attractor.java.server.Cookie;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class Lesson46Server extends Lesson45Server {
 
@@ -28,7 +25,26 @@ public class Lesson46Server extends Lesson45Server {
         renderTemplate(exchange, "cookie.ftlh", data);
     }
 
-
+    private void BooksHandler(HttpExchange exchange) {
+        Map<String, Object> map = new HashMap<>();
+        String queryParams = getQueryParams(exchange);
+        Map<String, String> params = ProgramUtility.parseUrl(queryParams, "&");
+        if (params.get("id") != null) {
+            var books = new BookDataModel().getBooks();
+            for (Book book : books) {
+                if (book.getId().equals(params.get("id"))) {
+                    map.put("book", book);
+                    break;
+                }
+            }
+            if (map.get("book") != null) {
+                renderTemplate(exchange, "book.html", map);
+            } else {
+                respond404(exchange);
+            }
+        }
+    }
 }
+
 
 

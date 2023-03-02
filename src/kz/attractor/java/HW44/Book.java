@@ -1,7 +1,5 @@
 package kz.attractor.java.HW44;
-
 import FileService.FileEmployeeService;
-
 import java.util.List;
 
 public class Book {
@@ -11,7 +9,15 @@ public class Book {
     private boolean state;
     private transient Employee user;
     private String imgBook;
-    private transient List<Employee> employees;
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getImgBook() {
         return imgBook;
@@ -21,14 +27,16 @@ public class Book {
         this.imgBook = imgBook;
     }
 
-
-    public Book(int id, String name, String author) {
+    public Book(String imgBook) {
+        this.imgBook = imgBook;
     }
 
-    public Book(String name, String author,String imgBook){
+    public Book(String name, String author, String imgBook, String description,boolean state){
         this.name = name;
         this.author = author;
+        this.state = state;
         this.imgBook = imgBook;
+        this.description = description;
         User();
     }
 

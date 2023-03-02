@@ -41,17 +41,17 @@
                 ${book.author!"-- not specified --"}
             </div>
             <div class="column">
-                ${book.state?string('Yes', 'No')}
-            </div>
-            <div class="column">
-                <#if book.user?has_content>
-                ${book.user.firstName}
-                <#else>
-                Employee
-                </#if>
-            </div>
+            ${book.state?string('Yes', 'No')}
         </div>
-    </#list>
+        <div class="column">
+            <#if book.user?has_content>
+            ${book.user.firstName}
+            <#else>
+            Employee
+        </#if>
+    </div>
+</div>
+</#list>
 </div>
 </body>
 </html>

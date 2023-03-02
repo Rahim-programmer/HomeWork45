@@ -15,6 +15,7 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import static java.util.stream.Collectors.joining;
 
@@ -125,7 +126,7 @@ public abstract class BasicServer {
         }
     }
 
-    private void respond404(HttpExchange exchange) {
+    protected void respond404(HttpExchange exchange) {
         try {
             var data = "404 Not found".getBytes();
             sendByteData(exchange, ResponseCodes.NOT_FOUND, ContentType.TEXT_PLAIN, data);
@@ -144,11 +145,12 @@ public abstract class BasicServer {
         }
     }
 
-    protected static String getCookies(HttpExchange exchange){
+    protected static String getCookies(HttpExchange exchange) {
         return exchange.getRequestHeaders()
                 .getOrDefault("Cookie", List.of(""))
                 .get(0);
     }
+
     protected void setCookie(HttpExchange exchange, Cookie cookie) {
         exchange.getResponseHeaders().add("Set-Cookie", cookie.toString());
     }
@@ -160,5 +162,10 @@ public abstract class BasicServer {
 
     public final void start() {
         server.start();
+    }
+
+    protected String getQueryParams(HttpExchange exchange) {
+        String query = exchange.getRequestURI().getQuery();
+        return Objects.nonNull(query) ? query : "";
     }
 }

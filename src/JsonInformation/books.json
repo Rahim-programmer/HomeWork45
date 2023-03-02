@@ -4,75 +4,80 @@
     "name": "The Fault in Our Stars",
     "author": "John Green",
     "state": true,
-    "imgBook": "https://avatars.mds.yandex.net/i?id=76177098b08f637c091efd57eb4102b1aef779f0-8218669-images-thumbs&n=13&exp=1"
+    "imgBook": "Books.jpg",
+    "description": "An abstract is an advertisement for your book. Specify what exactly you sell and for whom your goods are stored, as well as provide quality guarantees."
   },
   {
     "id": "2",
     "name": "The Picture of Dorian Grey",
     "author": "Oscar Wilde",
-    "state": false
-
+    "state": false,
+    "imgBook": "Book2.jpg",
+    "description": "If your readers are people with an undeveloped literary taste, then the sentences in the annotation should be short, without embellishments. The emphasis is on something sensational, challenging or useful. The reader is promised simple pleasures - laughter, fear, the satisfaction of curiosity."
   },
   {
     "id": 3,
     "name": "Theater",
     "author": "Somerset Maugham",
-    "state": true
+    "state": true,
+    "imgBook": "Book3.jpg",
+    "description": "Such annotations are a dime a dozen, and none of them seem convincing."
   },
   {
     "id": 4,
     "name": "David Copperfield",
     "author": "Charles Dickens",
     "state": false,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Book3.jpg",
+    "description":"Paul knows how to subtly joke and draw interesting historical parallels, but, unfortunately, there are a couple of gloomy skeletons in his closet, and getting along with this toothy fraternity is not so easy."
   },
   {
     "id": 5,
     "name": "1984 ",
     "author": "George Orwell",
     "state": true,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Book2.jpg",
+    "description":"He had to regain his former glory and love of Nina Kupina - a strong, unbearable, dazzling woman, for whom it was worth storming impregnable cities."
   },
   {
     "id": 6,
     "name": "Clockwork Orange",
     "author": "Anthony Burgess",
     "state": true,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Books.jpg",
+    "description":"In fact, this is an advertisement for a book that should show that reading the book will provide answers to important questions that are relevant for an entrepreneur, as well as allow you to get effective ideas for business development."
   },
   {
     "id": 7,
     "name": "Brave New World",
     "author": "Aldous Huxley",
     "state": true,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Book2.jpg",
+    "description":"In fact, this is an advertisement for a book that should show that reading the book will provide answers to important questions that are relevant for an entrepreneur, as well as allow you to get effective ideas for business development."
   },
   {
     "id": 8,
     "name": "Magus",
     "author": "John Fowles",
     "state": true,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Book3.jpg",
+    "description":"A title is an element of a bibliographic record that precedes the main title of a work."
   },
   {
     "id": 9,
     "name": "Possess",
     "author": " Antonia Byatt",
     "state": false,
-    "imgBook": "Books.jpg"
-
+    "imgBook": "Book2.jpg",
+    "description":"The main title is the title of a book or article, and information related to the title is an explanation of the genre, type of publication, for example, a collection of articles, a textbook, etc."
   },
   {
     "id": 10,
     "name": "Mrs Dalloway",
     "author": "Virginia Woolf",
     "state": true,
-    "imgBook": "Books.jpg"
+    "imgBook": "Book3.jpg",
+    "description":"A statement of responsibility is information about the contributors, translators, editors, and/or the organization that accepts responsibility for a given publication."
 
   },
   {
@@ -80,7 +85,8 @@
     "name": "The Golden Notebook",
     "author": "Doris Lessing",
     "state": false,
-    "imgBook": "Books.jpg"
+    "imgBook": "Books.jpg",
+    "description":"Edition information includes the qualitative and quantitative characteristics of the document - revised, stereotyped, 2nd, etc."
 
   },
   {
@@ -88,7 +94,8 @@
     "name": "The Noise of Time",
     "author": "Julian Barnes",
     "state": true,
-    "imgBook": "Books.jpg"
+    "imgBook": "Book2.jpg",
+    "description":"The place of publication is the name of the city. Moscow and St. Petersburg are abbreviated (M., St. Petersburg), all other cities are written in full (Novosibirsk, Kyiv). The date for the book means the year of publication, for GOST, for example, this is the exact date in the form DD.MM.YY (day - month - year)."
 
   },
   {
@@ -96,7 +103,8 @@
     "name": "Hippo",
     "author": "Stephen Fry",
     "state": false,
-    "imgBook": "Books.jpg"
+    "imgBook": "Books.jpg",
+    "description":"Publisher - Which publisher published the book."
 
   },
   {
@@ -104,7 +112,8 @@
     "name": "Pride and Prejudice",
     "author": "Jane Austen",
     "state": true,
-    "imgBook": "Books.jpg"
+    "imgBook": "Books.jpg",
+    "description":"Volume is the number of pages or pages on which an article is published in a journal or collection."
 
   },
   {
@@ -112,7 +121,8 @@
     "name": "Wuthering Heights",
     "author": "Emily Brontë",
     "state": true,
-    "imgBook": "Books.jpg"
+    "imgBook": "Books.jpg",
+    "description":"Imprint is 1) the place of issue of the publication; 2) name of the publisher (name of the publishing house); 3) year of issue of the publication."
 
   }
 ]

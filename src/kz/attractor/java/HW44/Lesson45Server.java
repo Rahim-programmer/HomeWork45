@@ -41,7 +41,6 @@ public class Lesson45Server extends Lesson44Server {
                         if (employee.getEmail().equals(parsed.get("email")) && employee.getPassword().equals(parsed.get("user-password"))) {
                             makeCookie(exchange, employee);
                             user = employee;
-
                     }
                 }
                 users.add(employees);
@@ -68,9 +67,7 @@ public class Lesson45Server extends Lesson44Server {
             Cookie ses = Cookie.make("User-ID", generateID);
             ses.setMaxAge(600);
             ses.setHttpOnly(true);
-
             setCookie(exchange, ses);
-
             getCookies(exchange);
 
             if(user != null) {
@@ -112,5 +109,9 @@ public class Lesson45Server extends Lesson44Server {
         String cookieStr = getCookies(exchange);
         Map<String, String> cookies = Cookie.parse(cookieStr);
         data.put("cookies", cookies);
+    }
+    private boolean cookie(HttpExchange exchange){
+        var msg = Cookie.parse(getCookies(exchange));
+        return msg.get("userId") != null && msg.get("usedId").equalsIgnoreCase((msg.remove(exchange)));
     }
 }
